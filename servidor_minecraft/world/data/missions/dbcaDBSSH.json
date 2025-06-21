@@ -1,0 +1,329 @@
+{
+  "name": "Dragon Block C Additions - DBS: Super Hero Movie",
+  "desc": "An alternate story for the DBC Additions mod based off on the Dragon Ball Super: Super Hero movie.",
+  "authors": "enzp912",
+  "version": "1.0",
+  "mods": "DBC",
+  "settings": {
+    "repeat": "0",
+    "unlock": "",
+    "vars": ""
+  },
+  "missions": [
+    {
+      "id": 0,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "DBC: Super Hero"
+      ],
+      "subtitle": [
+        "Dragon Ball Super: Super Hero Movie Saga"
+      ],
+      "description": [
+        "Goku and Vegeta are training with Whis, and the earth remains peaceful. Until Dr. Hedo appears..."
+      ],
+      "objectives": [
+        [
+          "next"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;jinryuujrmcore.Next;1"
+        ]
+      ]
+    },
+    {
+      "id": 1,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "DBC: Super Hero"
+      ],
+      "subtitle": [
+        "Sparring with Piccolo"
+      ],
+      "description": [
+        "Piccolo wants to train with you!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "kill;Nninjinentities.Piccolo2;H450000;A50000;SPiccolo: This is going to be fun!;DPiccolo: That was a good sparring session."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!lvlalign!10.0||align!+10;jinryuujrmcore.missionSys.Protect;2",
+          "tp!lvlalign!10.0||align!0;jinryuujrmcore.missionSys.Myself;2",
+          "tp!lvlalign!10.0||align!-10;jinryuujrmcore.missionSys.Evil;2"
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "DBC: Super Hero"
+      ],
+      "subtitle": [
+        "Training with Piccolo and Gohan"
+      ],
+      "description": [
+        "You managed to convince Gohan to join the training session!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.Piccolo2;H480000;A60000;SPiccolo: Prepare yourself!;DPiccolo: I have to become stronger...",
+          "kill;Nninjinentities.gohanUltimate;H500000;A700000;SGohan: I\u0027m not going easy on you! Hehe.;DGohan: Waah! I\u0027m exhausted!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!lvlalign!10.0||align!+10;jinryuujrmcore.missionSys.Protect;3",
+          "tp!lvlalign!10.0||align!0;jinryuujrmcore.missionSys.Myself;3",
+          "tp!lvlalign!10.0||align!-10;jinryuujrmcore.missionSys.Evil;3"
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "DBC: Super Hero"
+      ],
+      "subtitle": [
+        "Red Ribborn is back"
+      ],
+      "description": [
+        "A new android confronts you!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.Gamma1;H800000;A90000;SGamma 1: I\u0027m a Super Hero!;DGamma 1: You are pretty strong."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!lvlalign!10.0||align!+10;jinryuujrmcore.missionSys.Protect;4",
+          "tp!lvlalign!10.0||align!0;jinryuujrmcore.missionSys.Myself;4",
+          "tp!lvlalign!10.0||align!-10;jinryuujrmcore.missionSys.Evil;4"
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "DBC: Super Hero"
+      ],
+      "subtitle": [
+        "Piccolo\u0027s new power"
+      ],
+      "description": [
+        "Piccolo asked Shenron to release his full potential."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.Piccolo3;H855000;A95000;SPiccolo: This is my new power!;DPiccolo: I have to become EVEN stronger!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!lvlalign!10.0||align!+10;jinryuujrmcore.missionSys.Protect;5",
+          "tp!lvlalign!10.0||align!0;jinryuujrmcore.missionSys.Myself;5",
+          "tp!lvlalign!10.0||align!-10;jinryuujrmcore.missionSys.Evil;5"
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "DBC: Super Hero"
+      ],
+      "subtitle": [
+        "Piccolo\u0027s new power"
+      ],
+      "description": [
+        "Piccolo asked Shenron to release his full potential."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.Piccolo4;H975000;A105000;SPiccolo: Thank you Shenron. A little extra went a long way in this.;DPiccolo: I\u0027m strong enough now!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!lvlalign!10.0||align!+10;jinryuujrmcore.missionSys.Protect;6",
+          "tp!lvlalign!10.0||align!0;jinryuujrmcore.missionSys.Myself;6",
+          "tp!lvlalign!10.0||align!-10;jinryuujrmcore.missionSys.Evil;6"
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "DBC: Super Hero"
+      ],
+      "subtitle": [
+        "Red Ribbon is back"
+      ],
+      "description": [
+        "You, Piccolo and Gohan go to the Red Ribbon basement to rescue Pan."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.Gamma1;H825000;A94000;SGamma 1: I\u0027m the Super Hero Gamma 1!;DGamma 1: Oh no. This is bad...",
+          "kill;Nninjinentities.Gamma2;H843000;A96000;SGamma 2: I\u0027m the Super Hero Gamma 2!;DGamma 2: We have to stop Cell Max now!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!lvlalign!10.0||align!+10;jinryuujrmcore.missionSys.Protect;7",
+          "tp!lvlalign!10.0||align!0;jinryuujrmcore.missionSys.Myself;7",
+          "tp!lvlalign!10.0||align!-10;jinryuujrmcore.missionSys.Evil;7"
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "DBC: Super Hero"
+      ],
+      "subtitle": [
+        "Red Ribbon is back"
+      ],
+      "description": [
+        "Cell Max, the perfect android, has been born."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.cellmax;H1250000;A150000;SCell Max: GRRAAAAAAAAAAAAAAHH!!!;DCell Max: ..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!lvlalign!10.0||align!+10;jinryuujrmcore.missionSys.Protect;8",
+          "tp!lvlalign!10.0||align!0;jinryuujrmcore.missionSys.Myself;8",
+          "tp!lvlalign!10.0||align!-10;jinryuujrmcore.missionSys.Evil;8"
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "DBC: Super Hero"
+      ],
+      "subtitle": [
+        "Red Ribbon is back"
+      ],
+      "description": [
+        "Cell Max has been defeated!"
+      ],
+      "objectives": [
+        [
+          "restart"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;jinryuujrmcore.Restart;9"
+        ]
+      ]
+    },
+    {
+      "id": 9,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "DBC: Super Hero"
+      ],
+      "subtitle": [
+        "Thanks for playing!"
+      ],
+      "description": [
+        ""
+      ],
+      "objectives": [
+        null
+      ],
+      "rewards": [
+        null
+      ]
+    }
+  ]
+}
